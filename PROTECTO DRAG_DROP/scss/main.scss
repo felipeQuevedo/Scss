@@ -2,8 +2,8 @@
 
 :root{
     --first-color: #272A3A;
-    --first-color-light: #8A8EAA;
-    --first-color-lighten: #F8F8FC;
+    --first-color-light: #aa8a9c;
+    --first-color-lighten: #f9d6ee;
     --body-font: 'Ubuntu', sans-serif;
     --normal-font-size: 1rem;
     --small-font-size: .813rem;
@@ -17,6 +17,9 @@ body{
     padding: 0;
     font-family: var(--body-font);
     background-color: var(--first-color-lighten);
+    box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
 }
 
 h1{
@@ -30,23 +33,33 @@ a{
 img {
     max-width: 100%;
     height: auto;
+    
+
 }
 .drop, .drop_container{
     display: grid;
+    box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
 }
 .drop{
     height: 100vh;
     align-items: center;
     justify-content: center;
+   
 }
  .drop_container{
     row-gap: 1rem;
     padding: 2rem;
     box-shadow: 4px 4px 16px #E1E1E1;
+    box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
  }
  .drop_card, .drop_data{
     display: flex;
     align-items: center;
+  
  }
  .drop_card{
     width: 360px;
@@ -55,6 +68,7 @@ img {
     background-color: var(--first-color-lighten);
     box-shadow: 4px 4px 16px #E1E1E1, -2px -2px 16px #fff;
     border-radius: 2.5rem;
+   
  }
 
  .drop_img {
@@ -62,12 +76,16 @@ img {
     height: 55px;
     border-radius: 50%;
     margin-right: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
  }
 
  .drop_nombre{
     font-size: var(--normal-font-size);
     color: var(--first-color);
     font-weight: 700;
+    
  }
  .drop_perfil{
     font-size: var(--small-font-size);
