@@ -14,17 +14,17 @@ Información:
 <br>
 Este repositorio contiene, todos los proyectos SASS, con su respectiva funcionalidad colores y cada una editada tal cual como fue pedida.
 <br>
-ANOTACIONES
+:loudspeaker:ANOTACIONES:loudspeaker:
 <br>
 <br>
 El primer proyecto pedido, que fue el de cambio de colores, tuve incomvenientes para subirlo asi que tuve que retirar las librerias ya que contenian mas de 100 archivos y me impedian el correcto cargado a la plataforma github
 <br>
 <br>
-ANOTACIONES
+:loudspeaker:ANOTACIONES:loudspeaker:
 <br>
 Por lo general el resto de trabajos esta totalmente bien y ya fueron verificados por el profesor anteriormente, lo que quiere decir que ya estan bien.
 <br>
 <br>
-ANOTACIONES
+:loudspeaker:ANOTACIONES:loudspeaker:
 <br>
 todo el maquetado estructurado y sintaxis de los proyectos fue validado totalmente por la w3c, algunos contienen pequeños warnings, pero dsps de eso esta totalmente bien 
